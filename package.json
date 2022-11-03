@@ -1,0 +1,14 @@
+{
+  "name": "news-homepage-main",
+  "version": "1.0.0",
+  "description": "A homepage for a news outlet",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Kolawole",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
